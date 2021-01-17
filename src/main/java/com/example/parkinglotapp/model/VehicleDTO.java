@@ -3,12 +3,11 @@ package com.example.parkinglotapp.model;
 import javax.persistence.Entity;
 import javax.persistence.Id;
 
-import lombok.Getter;
-import lombok.Setter;
+import lombok.Data;
 
 @Entity
-@Getter
-@Setter
+@Data
+//--Data creates getter and setters and all the lombok additional annotations
 public class VehicleDTO {
 
     @Id

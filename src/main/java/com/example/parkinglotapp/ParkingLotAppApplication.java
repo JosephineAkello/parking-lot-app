@@ -8,7 +8,9 @@ public class ParkingLotAppApplication {
 
 	public static void main(String[] args) {
 		SpringApplication.run(ParkingLotAppApplication.class, args);
-		System.out.println("Helllo spring parking lot");
+		System.out.println("Helllo spring parking lot app");
+		System.out.println("Hello Devtools");
+		System.out.println("heeey");
 	}
 
 }

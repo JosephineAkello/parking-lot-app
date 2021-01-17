@@ -27,10 +27,10 @@ public class SwaggerConfig {
 	
 		private ApiInfo apiInfo() {
 		return new ApiInfoBuilder().title("Parking Lot API")
-				.description("Parking Lot API reference for developers")
-				.termsOfServiceUrl("http://ParkingLot.com")
-				.contact(new Contact("Parking Lot Application", "http://ParkingLot.com", "parkinglot@gmail.com")).license("Parking Lot License")
-				.licenseUrl("parkinglot@gmail.com").version("1.0").build();
+				.description("Parking Lot API reference").build();
+//				.termsOfServiceUrl("http://ParkingLot.com")
+//				.contact(new Contact("Parking Lot Application", "http://ParkingLot.com", "parkinglot@gmail.com")).license("Parking Lot License")
+//				.licenseUrl("parkinglot@gmail.com").version("1.0").build();
 	}
 
 }
